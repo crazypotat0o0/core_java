@@ -1,0 +1,29 @@
+package chapter04;
+
+import java.text.DateFormatSymbols;
+import java.util.Calendar;
+import java.util.GregorianCalendar;
+import java.util.Locale;
+
+public class CalendarTest {
+	public static void main(String[] args) {
+		Locale.setDefault(Locale.CHINA);
+		printWeekdayNames();
+		printDays();
+	}
+
+	private static void printDays() {
+		// TODO Auto-generated method stub
+		Calendar d = new GregorianCalendar();
+		
+		
+	}
+
+	private static void printWeekdayNames() {
+		// TODO Auto-generated method stub
+		String[] weekdayNames = new DateFormatSymbols().getShortWeekdays();
+		for (String weekdayName : weekdayNames) {
+			System.out.printf("%4s", weekdayName);
+		}
+	}
+}

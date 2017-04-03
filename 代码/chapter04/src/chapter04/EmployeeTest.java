@@ -1,0 +1,22 @@
+package chapter04;
+
+public class EmployeeTest {
+
+	public static void main(String[] args) {
+//		// TODO Auto-generated method stub
+//		Employee[] staff = new Employee[3]; 
+//		staff[0] = new Employee("xiaoqiang", 75000, 2000, 12, 15);
+//		staff[1] = new Employee("zhangsan", 12000, 2002, 4, 16);
+//		staff[2] = new Employee("wangwu", 45000, 2012, 6, 4);
+//		
+//		for (Employee e : staff) {
+//			e.raiseSalary(5);
+//			System.out.println(e.toString());
+//		}
+//		
+		new Manager("liuxuf", 20, 1992, 1, 2);
+		new Manager("liuxuf11111", 20, 1992, 1, 2);
+		
+	}
+
+}

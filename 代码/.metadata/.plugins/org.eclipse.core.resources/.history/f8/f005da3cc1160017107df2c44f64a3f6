@@ -1,0 +1,8 @@
+package chapter03;
+
+public class IdentifyChar {
+	public static void main(String[] args) {
+		char Äã;
+		System.out.println(Character.isJavaIdentifierPart(Äã));
+	}
+}

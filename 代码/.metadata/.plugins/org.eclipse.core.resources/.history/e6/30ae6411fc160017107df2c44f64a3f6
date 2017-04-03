@@ -1,0 +1,11 @@
+package chapter03;
+
+import java.io.IOException;
+import java.nio.file.Paths;
+import java.util.Scanner;
+
+public class IODemo {
+	public static void main(String[] args) throws IOException{
+		Scanner in = new Scanner(Paths.get("C:\\Users\\Administrator\\Desktop\\a.txt"));
+	}
+}
