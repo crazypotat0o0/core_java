@@ -9,7 +9,6 @@ import java.util.GregorianCalendar;
  * @author Administrator
  * @version 1.0
  * @since 1.0
- * @see chapter03.src.chapter03.DoubleTest
  */
 public class Employee {
 	private static String name;
@@ -32,15 +31,6 @@ public class Employee {
 		return hireDay;
 	}
 	
-	/**
-	 * 
-	 * @param name
-	 * @param salary
-	 * @param year
-	 * @param month
-	 * @param day
-	 * @return a instance
-	 */
 	public Employee(String name, double salary, int year, int month, int day) {
 		this.name = name;
 		this.salary = salary;
