@@ -1,4 +1,4 @@
-### Ò»¸ö¼òµ¥µÄJavaÓ¦ÓÃ³ÌÐò
+ï»¿### ä¸€ä¸ªç®€å•çš„Javaåº”ç”¨ç¨‹åº
 ```java
 public class FirstSample {
 	public static void main(String[] args) {
@@ -7,118 +7,118 @@ public class FirstSample {
 }
 ```  
 
-+ Java¶Ô´óÐ¡Ð´Ãô¸Ð¡£
-+ public³ÆÎª·ÃÎÊÐÞÊÎ·û£¬ÓÃÓÚ¿ØÖÆ³ÌÐòµÄÆäËû²¿·Ö¶ÔÕâ¶Î´úÂëµÄ·ÃÎÊ¼¶±ð¡£
-+ ¹Ø¼ü×Öclass±íÃ÷Java³ÌÐòÖÐµÄÈ«²¿ÄÚÈÝ¶¼°üº¬ÔÚÀàÖÐ¡£**JavaÓ¦ÓÃ³ÌÐòµÄËùÓÐÄÚÈÝ¶¼±ØÐë·ÅÖÃÔÚÀàÖÐ**
-+ ÀàÃûÊ¹ÓÃÍÕ·åÃüÃû·¨£¨ÒÔ´óÐ´×ÖÄ¸¿ªÍ·£¬Èç¹ûÃû×ÖÓÉ¶à¸öµ¥´Ê×é³É£¬Ã¿¸öµ¥´ÊÊ××ÖÄ¸Ó¦¸Ã´óÐ´£©
-+ (.)ºÅ±íÊ¾µ÷ÓÃ·½·¨¡£
++ Javaå¯¹å¤§å°å†™æ•æ„Ÿã€‚
++ publicç§°ä¸ºè®¿é—®ä¿®é¥°ç¬¦ï¼Œç”¨äºŽæŽ§åˆ¶ç¨‹åºçš„å…¶ä»–éƒ¨åˆ†å¯¹è¿™æ®µä»£ç çš„è®¿é—®çº§åˆ«ã€‚
++ å…³é”®å­—classè¡¨æ˜ŽJavaç¨‹åºä¸­çš„å…¨éƒ¨å†…å®¹éƒ½åŒ…å«åœ¨ç±»ä¸­ã€‚**Javaåº”ç”¨ç¨‹åºçš„æ‰€æœ‰å†…å®¹éƒ½å¿…é¡»æ”¾ç½®åœ¨ç±»ä¸­**
++ ç±»åä½¿ç”¨é©¼å³°å‘½åæ³•ï¼ˆä»¥å¤§å†™å­—æ¯å¼€å¤´ï¼Œå¦‚æžœåå­—ç”±å¤šä¸ªå•è¯ç»„æˆï¼Œæ¯ä¸ªå•è¯é¦–å­—æ¯åº”è¯¥å¤§å†™ï¼‰
++ (.)å·è¡¨ç¤ºè°ƒç”¨æ–¹æ³•ã€‚
 
-### ×¢ÊÍ
+### æ³¨é‡Š
 
-1. // -- µ¥ÐÐ×¢ÊÍ
-2. /\*¶àÐÐ×¢ÊÍ\*/
-3. /\*\*ÎÄµµ×¢ÊÍ\*/
+1. // -- å•è¡Œæ³¨é‡Š
+2. /\*å¤šè¡Œæ³¨é‡Š\*/
+3. /\*\*æ–‡æ¡£æ³¨é‡Š\*/
 
-### Êý¾ÝÀàÐÍ
-##### ÕûÐÍ£¨int short long byte£©
+### æ•°æ®ç±»åž‹
+##### æ•´åž‹ï¼ˆint short long byteï¼‰
 
-1. int×îÎª³£ÓÃ
-2. ³¤ÕûÐÍ¼Óºó×ºL
-3. Ç°×º0x±íÊ¾Ê®Áù½øÖÆ£¬ 0±íÊ¾°Ë½øÖÆ£¬ 0b±íÊ¾¶þ½øÖÆ
-4. Êý×Ö×ÖÃæÁ¿¼ÓÏÂ»®ÏßÒ×ÓÚÔÄ¶Á¡£e.g. 1_000_000
+1. intæœ€ä¸ºå¸¸ç”¨
+2. é•¿æ•´åž‹åŠ åŽç¼€L
+3. å‰ç¼€0xè¡¨ç¤ºåå…­è¿›åˆ¶ï¼Œ 0è¡¨ç¤ºå…«è¿›åˆ¶ï¼Œ 0bè¡¨ç¤ºäºŒè¿›åˆ¶
+4. æ•°å­—å­—é¢é‡åŠ ä¸‹åˆ’çº¿æ˜“äºŽé˜…è¯»ã€‚e.g. 1_000_000
 
-##### ¸¡µãÀàÐÍ
-1. floatÀàÐÍµÄÊýÖµÓÐÒ»¸öºó×ºF
-2. Èý¸öÌØÊâµÄ¸¡µãÊýÖµ£ºÕýÎÞÇî´ó -- Double.POSITIVE_INFINITY¡¢¸ºÎÞÇî´ó -- Double.NEGATIVE_INFINITYºÍNaN£¨²»ÊÇÒ»¸öÊý×Ö£©
-	+ ¼ì²âÌØ¶¨ÖµÊÇ·ñÎªNaNµÄ·½·¨Îª£º
+##### æµ®ç‚¹ç±»åž‹
+1. floatç±»åž‹çš„æ•°å€¼æœ‰ä¸€ä¸ªåŽç¼€F
+2. ä¸‰ä¸ªç‰¹æ®Šçš„æµ®ç‚¹æ•°å€¼ï¼šæ­£æ— ç©·å¤§ -- Double.POSITIVE_INFINITYã€è´Ÿæ— ç©·å¤§ -- Double.NEGATIVE_INFINITYå’ŒNaNï¼ˆä¸æ˜¯ä¸€ä¸ªæ•°å­—ï¼‰
+	+ æ£€æµ‹ç‰¹å®šå€¼æ˜¯å¦ä¸ºNaNçš„æ–¹æ³•ä¸ºï¼š
 	```java
 	if (Double.isNaN(x)) // check whether x is "not a number"
 	```  
 
-##### charÀàÐÍ
-1. ´úÂëµã£ºÓëÒ»¸ö±àÂë±íÖÐµÄÄ³¸ö×Ö·û¶ÔÓ¦µÄ´úÂëÖµ¡£UnicodeÖÐ£¬Ê®Áù½øÖÆÊýÇ°¼ÓÉÏÇ°×ºU+±íÊ¾Ò»¸ö´úÂëµã¡£ e.g.  AµÄ´úÂëµãÎª U+0041
-2. UnicodeµÄ´úÂëµã¿ÉÒÔ·Ö³É17¸ö´úÂë¼¶±ð¡£µÚÒ»¸ö´úÂë¼¶±ðÎª*¶àÓïÑÔ¼¶±ð*£¬ÆäËûÎª¸½¼Ó¼¶±ð¡£
-3. ¶àÓïÑÔ¼¶±ðÖÐ£¬ Ã¿¸ö×Ö·ûÓÃ16Î»±íÊ¾£¬Í¨³£³ÆÎª´úÂëµ¥Ôª¡£
-4. ¸¨Öú×Ö·û²ÉÓÃÌØ¶¨µÄ´úÂëµã×÷ÎªÆäµÚÒ»¸ö»òµÚ¶þ¸ö´úÂëµ¥Ôª¡£ e.g. U+D800~U+BFFÓÃÓÚµÚÒ»¸ö´úÂëµ¥Ôª U+DC00~U+DFFFÓÃÓÚµÚ¶þ¸ö´úÂëµ¥Ôª¡£
-ÕâÑù¿ÉÒÔÑ¸ËÙµÄÖªµÀÒ»¸ö´úÂëµ¥ÔªÊÇÒ»¸ö×Ö·û»¹ÊÇÒ»¸ö¸¨Öú×Ö·ûµÄµÚÒ»»òµÚ¶þ²¿·Ö¡£
+##### charç±»åž‹
+1. ä»£ç ç‚¹ï¼šä¸Žä¸€ä¸ªç¼–ç è¡¨ä¸­çš„æŸä¸ªå­—ç¬¦å¯¹åº”çš„ä»£ç å€¼ã€‚Unicodeä¸­ï¼Œåå…­è¿›åˆ¶æ•°å‰åŠ ä¸Šå‰ç¼€U+è¡¨ç¤ºä¸€ä¸ªä»£ç ç‚¹ã€‚ e.g.  Açš„ä»£ç ç‚¹ä¸º U+0041
+2. Unicodeçš„ä»£ç ç‚¹å¯ä»¥åˆ†æˆ17ä¸ªä»£ç çº§åˆ«ã€‚ç¬¬ä¸€ä¸ªä»£ç çº§åˆ«ä¸º*å¤šè¯­è¨€çº§åˆ«*ï¼Œå…¶ä»–ä¸ºé™„åŠ çº§åˆ«ã€‚
+3. å¤šè¯­è¨€çº§åˆ«ä¸­ï¼Œ æ¯ä¸ªå­—ç¬¦ç”¨16ä½è¡¨ç¤ºï¼Œé€šå¸¸ç§°ä¸ºä»£ç å•å…ƒã€‚
+4. è¾…åŠ©å­—ç¬¦é‡‡ç”¨ç‰¹å®šçš„ä»£ç ç‚¹ä½œä¸ºå…¶ç¬¬ä¸€ä¸ªæˆ–ç¬¬äºŒä¸ªä»£ç å•å…ƒã€‚ e.g. U+D800~U+BFFç”¨äºŽç¬¬ä¸€ä¸ªä»£ç å•å…ƒ U+DC00~U+DFFFç”¨äºŽç¬¬äºŒä¸ªä»£ç å•å…ƒã€‚
+è¿™æ ·å¯ä»¥è¿…é€Ÿçš„çŸ¥é“ä¸€ä¸ªä»£ç å•å…ƒæ˜¯ä¸€ä¸ªå­—ç¬¦è¿˜æ˜¯ä¸€ä¸ªè¾…åŠ©å­—ç¬¦çš„ç¬¬ä¸€æˆ–ç¬¬äºŒéƒ¨åˆ†ã€‚
 
-##### booleanÀàÐÍ
+##### booleanç±»åž‹
 1. true or false
-2. ÕûÐÍÖµºÍ²¼¶ûÐÍÖ®¼ä²»ÄÜ½øÐÐÏà»¥×ª»»¡£
+2. æ•´åž‹å€¼å’Œå¸ƒå°”åž‹ä¹‹é—´ä¸èƒ½è¿›è¡Œç›¸äº’è½¬æ¢ã€‚
 
-### ±äÁ¿
+### å˜é‡
 
-1. Ã¿Ò»¸ö±äÁ¿ÊôÓÚÒ»ÖÖÀàÐÍ£¬±äÁ¿Ãû±ØÐëÒÔÒ»¸ö×ÖÄ¸¿ªÍ·µÄ×ÖÄ¸»òÊý×Ö¹¹³ÉµÄÐòÁÐ¡£
-2. JavaÖÐ×ÖÄ¸°üÀ¨'A'-'Z', 'a'-'z','_', '$'»òÔÚÄ³ÖÖÓïÑÔÖÐ´ú±í×ÖÄ¸µÄÈÎºÎUnicode×Ö·û¡£
-3. ±äÁ¿Ãû¾¡Á¿×öµ½ÓÐÒâÒåÇÒ´óÐ¡Ð´Ãô¸Ð¡£
-4. ±äÁ¿Ãû³¤¶È²»ÏÞ¡£µ«¾¡Á¿²»Òª³öÏÖ'$'¡£
-5. CharacterÀàÖÐµÄisJavaIdentifierStartºÍisJavaIdentifierPart¿ÉÒÔ¼ì²âÊÇ·ñ·ûºÏ¹æ·¶¡£
-6. ¿ÉÒÔÔÚÒ»ÐÐÖÐÉùÃ÷¶à¸ö±äÁ¿£¬µ«²»Ìá³«¡£e.g. int i,j;ÖðÒ»ÉùÃ÷Ã¿Ò»¸ö±äÁ¿¿ÉÌá¸ß³ÌÐòµÄÔÄ¶ÁÐÔ¡£
-7. ±äÁ¿µÄÉùÃ÷¾¡¿ÉÄÜ¿¿½ü±äÁ¿µÚÒ»´ÎÊ¹ÓÃµÄµØ·½¡£
-8. ¹Ø¼ü×ÖfinalÖ¸Ê¾³£Á¿£¬ static finalÉèÖÃÒ»¸öÀà³£Á¿¡£
+1. æ¯ä¸€ä¸ªå˜é‡å±žäºŽä¸€ç§ç±»åž‹ï¼Œå˜é‡åå¿…é¡»ä»¥ä¸€ä¸ªå­—æ¯å¼€å¤´çš„å­—æ¯æˆ–æ•°å­—æž„æˆçš„åºåˆ—ã€‚
+2. Javaä¸­å­—æ¯åŒ…æ‹¬'A'-'Z', 'a'-'z','_', '$'æˆ–åœ¨æŸç§è¯­è¨€ä¸­ä»£è¡¨å­—æ¯çš„ä»»ä½•Unicodeå­—ç¬¦ã€‚
+3. å˜é‡åå°½é‡åšåˆ°æœ‰æ„ä¹‰ä¸”å¤§å°å†™æ•æ„Ÿã€‚
+4. å˜é‡åé•¿åº¦ä¸é™ã€‚ä½†å°½é‡ä¸è¦å‡ºçŽ°'$'ã€‚
+5. Characterç±»ä¸­çš„isJavaIdentifierStartå’ŒisJavaIdentifierPartå¯ä»¥æ£€æµ‹æ˜¯å¦ç¬¦åˆè§„èŒƒã€‚
+6. å¯ä»¥åœ¨ä¸€è¡Œä¸­å£°æ˜Žå¤šä¸ªå˜é‡ï¼Œä½†ä¸æå€¡ã€‚e.g. int i,j;é€ä¸€å£°æ˜Žæ¯ä¸€ä¸ªå˜é‡å¯æé«˜ç¨‹åºçš„é˜…è¯»æ€§ã€‚
+7. å˜é‡çš„å£°æ˜Žå°½å¯èƒ½é è¿‘å˜é‡ç¬¬ä¸€æ¬¡ä½¿ç”¨çš„åœ°æ–¹ã€‚
+8. å…³é”®å­—finalæŒ‡ç¤ºå¸¸é‡ï¼Œ static finalè®¾ç½®ä¸€ä¸ªç±»å¸¸é‡ã€‚
 
 ```java
-char ±äÁ¿ = 0;
-System.out.println(Character.isJavaIdentifierPart(±äÁ¿)); //true
+char å˜é‡ = 0;
+System.out.println(Character.isJavaIdentifierPart(å˜é‡)); //true
 ```
 
-### ÔËËã·û
+### è¿ç®—ç¬¦
 
-1. ÕûÊý±»0³ý²úÉúÒ»¸öÒì³££¬¸¡µãÊý±»0³ý»áµÃµ½ÎÞÇî´ó»òNaN½á¹û¡£0.0 / 0 = NaN¡¢ 1.0 / 0 = Infinity
-2. 3 % 5 = 3¡¢ 3 % -5 = 3¡¢ -3 % 5 = -3¡¢ -3 % -5 = -3
+1. æ•´æ•°è¢«0é™¤äº§ç”Ÿä¸€ä¸ªå¼‚å¸¸ï¼Œæµ®ç‚¹æ•°è¢«0é™¤ä¼šå¾—åˆ°æ— ç©·å¤§æˆ–NaNç»“æžœã€‚0.0 / 0 = NaNã€ 1.0 / 0 = Infinity
+2. 3 % 5 = 3ã€ 3 % -5 = 3ã€ -3 % 5 = -3ã€ -3 % -5 = -3
 
-##### ×ÔÔöºÍ×Ô¼õ
-1. Ç°×ºÐÎÊ½£ºÏÈ½øÐÔ+1ÔÙÊ¹ÓÃ¡£
-2. ºó×ºÐÎÊ½£ºÊ¹ÓÃ±äÁ¿Ô­À´µÄÖµ£¬ ÔÙ¶Ô±äÁ¿+1¡£
+##### è‡ªå¢žå’Œè‡ªå‡
+1. å‰ç¼€å½¢å¼ï¼šå…ˆè¿›æ€§+1å†ä½¿ç”¨ã€‚
+2. åŽç¼€å½¢å¼ï¼šä½¿ç”¨å˜é‡åŽŸæ¥çš„å€¼ï¼Œ å†å¯¹å˜é‡+1ã€‚
 
-##### ¹ØÏµÔËËãºÍbooleanÔËËã
-1. &&ºÍ||°´ÕÕ¶ÌÂ·µÄ·½Ê½ÇóÖµ¡£Èç¹ûµÚÒ»¸ö²Ù×÷ÊýÒÑ¾­ÄÜ¹»È·¶¨±í´ïÊ½µÄÖµ£¬µÚ¶þ¸ö²Ù×÷Êý¾Í²»ÓÃ¼ÆËãÁË¡£
-2. ÈýÔª²Ù×÷·û£º condition?expression1:expression2 µ±Ìõ¼þÂú×ãÊ±¼ÆËãµÚÒ»¸ö±í´ïÊ½£¬·ñÔò¼ÆËãµÚ¶þ¸ö¡£
+##### å…³ç³»è¿ç®—å’Œbooleanè¿ç®—
+1. &&å’Œ||æŒ‰ç…§çŸ­è·¯çš„æ–¹å¼æ±‚å€¼ã€‚å¦‚æžœç¬¬ä¸€ä¸ªæ“ä½œæ•°å·²ç»èƒ½å¤Ÿç¡®å®šè¡¨è¾¾å¼çš„å€¼ï¼Œç¬¬äºŒä¸ªæ“ä½œæ•°å°±ä¸ç”¨è®¡ç®—äº†ã€‚
+2. ä¸‰å…ƒæ“ä½œç¬¦ï¼š condition?expression1:expression2 å½“æ¡ä»¶æ»¡è¶³æ—¶è®¡ç®—ç¬¬ä¸€ä¸ªè¡¨è¾¾å¼ï¼Œå¦åˆ™è®¡ç®—ç¬¬äºŒä¸ªã€‚
 
-##### Î»ÔËËã
-&-Óë¡¢|-»ò¡¢^-Òì»ò¡¢~-·Ç¡¢>>-ÓÒÒÆ¡¢<<-×óÒÆ¡£>>>ÓÃ0Ìî³ä¸ßÎ»¡£
+##### ä½è¿ç®—
+&-ä¸Žã€|-æˆ–ã€^-å¼‚æˆ–ã€~-éžã€>>-å³ç§»ã€<<-å·¦ç§»ã€‚>>>ç”¨0å¡«å……é«˜ä½ã€‚
 
-##### ÊýÑ§º¯ÊýÓë³£Á¿
-1. MathÀàÌá¹©ÁË¸÷ÖÖÊýÑ§º¯ÊýµÄ¼ÆËã¡£
-2. Math.sqrtºÍSystem.out.println´æÔÚÎ¢Ð¡²îÒì¡£println·½·¨²Ù×÷Ò»¸ö¶¨ÒåÔÚSystemÀàÖÐµÄSystem.out¶ÔÏó¡£¶øMathÀàÖÐµÄsqrt·½·¨´¦ÀíµÄ²»ÊÇ¶ÔÏó¡£ÕâÖÖ·½·¨±»³ÆÎª¾²Ì¬·½·¨¡£
-3. MathÀàÖÐ³£ÓÃ·½·¨£º
-	+ Math.sqrt¡¢ Math.pow
-	+ Math.sin¡¢ Math.cos¡¢ Math.tan¡¢ Math.atan(double a)(Returns the arc tangent of a value)¡¢Math.atan2(double x, double y)(Returns the angle theta from the conversion of rectangular coordinates (x, y) to polar coordinates (r, theta).)
-	+ Math.exp¡¢ Math.log¡¢ Math.log10
-	+ Math.PI¡¢ Math.E
+##### æ•°å­¦å‡½æ•°ä¸Žå¸¸é‡
+1. Mathç±»æä¾›äº†å„ç§æ•°å­¦å‡½æ•°çš„è®¡ç®—ã€‚
+2. Math.sqrtå’ŒSystem.out.printlnå­˜åœ¨å¾®å°å·®å¼‚ã€‚printlnæ–¹æ³•æ“ä½œä¸€ä¸ªå®šä¹‰åœ¨Systemç±»ä¸­çš„System.outå¯¹è±¡ã€‚è€ŒMathç±»ä¸­çš„sqrtæ–¹æ³•å¤„ç†çš„ä¸æ˜¯å¯¹è±¡ã€‚è¿™ç§æ–¹æ³•è¢«ç§°ä¸ºé™æ€æ–¹æ³•ã€‚
+3. Mathç±»ä¸­å¸¸ç”¨æ–¹æ³•ï¼š
+	+ Math.sqrtã€ Math.pow
+	+ Math.sinã€ Math.cosã€ Math.tanã€ Math.atan(double a)(Returns the arc tangent of a value)ã€Math.atan2(double x, double y)(Returns the angle theta from the conversion of rectangular coordinates (x, y) to polar coordinates (r, theta).)
+	+ Math.expã€ Math.logã€ Math.log10
+	+ Math.PIã€ Math.E
 
-##### ÊýÖµÀàÐÍÖ®¼äµÄ×ª»»
+##### æ•°å€¼ç±»åž‹ä¹‹é—´çš„è½¬æ¢
 
-+ Èç¹ûÁ½¸ö²Ù×÷ÊýÖÐÓÐÒ»¸öÊÇdoubleÐÍ£¬ÁíÒ»¸ö²Ù×÷Êý¾Í»á×ª»»ÎªdoubleÐÍ¡£
-+ ·ñÔò£¬Èç¹ûÆäÖÐÒ»¸ö²Ù×÷ÊýÊÇfloatÀàÐÍ£¬ÁíÒ»¸ö²Ù×÷Êý½«»á×ª»»ÎªfloatÐÍ¡£
-+ ·ñÔò£¬Èç¹ûÆäÖÐÒ»¸ö²Ù×÷ÊýÊÇlongÐÍ£¬ÁíÒ»¸ö²Ù×÷Êý½«»á×ª»»ÎªlongÐÍ¡£
-+ ·ñÔò£¬Á½¸ö²Ù×÷Êý¶¼½«×ª»»ÎªintÐÍ¡£
++ å¦‚æžœä¸¤ä¸ªæ“ä½œæ•°ä¸­æœ‰ä¸€ä¸ªæ˜¯doubleåž‹ï¼Œå¦ä¸€ä¸ªæ“ä½œæ•°å°±ä¼šè½¬æ¢ä¸ºdoubleåž‹ã€‚
++ å¦åˆ™ï¼Œå¦‚æžœå…¶ä¸­ä¸€ä¸ªæ“ä½œæ•°æ˜¯floatç±»åž‹ï¼Œå¦ä¸€ä¸ªæ“ä½œæ•°å°†ä¼šè½¬æ¢ä¸ºfloatåž‹ã€‚
++ å¦åˆ™ï¼Œå¦‚æžœå…¶ä¸­ä¸€ä¸ªæ“ä½œæ•°æ˜¯longåž‹ï¼Œå¦ä¸€ä¸ªæ“ä½œæ•°å°†ä¼šè½¬æ¢ä¸ºlongåž‹ã€‚
++ å¦åˆ™ï¼Œä¸¤ä¸ªæ“ä½œæ•°éƒ½å°†è½¬æ¢ä¸ºintåž‹ã€‚
 
-##### Ç¿ÖÆÀàÐÍ×ª»»£¨cast£©
-Ç¿ÖÆÀàÐÍ×ª»»µÄ¸ñÊ½£º double x = 9.97; int nx = (int) x;   
-×¢Òâ£º1. Ç¿ÖÆÀàÐÍ×ª»»ÊÇÖ±½Ó½Ø¶ÏÊý¾Ý£¬ÉÏÊ½nxÖµÎª9¡£
-2. (byte)300µÄÊµ¼ÊÖµÎª44¡£
-##### À¨ºÅÓëÔËËã·û¼¶±ð
-Æ¾¸Ð¾õ¡¢ÄÃ²»×¼¼ÓÀ¨ºÅ¡£  
-À¨ºÅÓÅÏÈ¼¶×î¸ß£¬¸³ÖµÔËËãÓÅÏÈ¼¶×îµÍ¡£
-##### Ã¶¾ÙÀàÐÍ
+##### å¼ºåˆ¶ç±»åž‹è½¬æ¢ï¼ˆcastï¼‰
+å¼ºåˆ¶ç±»åž‹è½¬æ¢çš„æ ¼å¼ï¼š double x = 9.97; int nx = (int) x;   
+æ³¨æ„ï¼š1. å¼ºåˆ¶ç±»åž‹è½¬æ¢æ˜¯ç›´æŽ¥æˆªæ–­æ•°æ®ï¼Œä¸Šå¼nxå€¼ä¸º9ã€‚
+2. (byte)300çš„å®žé™…å€¼ä¸º44ã€‚
+##### æ‹¬å·ä¸Žè¿ç®—ç¬¦çº§åˆ«
+å‡­æ„Ÿè§‰ã€æ‹¿ä¸å‡†åŠ æ‹¬å·ã€‚  
+æ‹¬å·ä¼˜å…ˆçº§æœ€é«˜ï¼Œèµ‹å€¼è¿ç®—ä¼˜å…ˆçº§æœ€ä½Žã€‚
+##### æžšä¸¾ç±»åž‹
 
 
-### ×Ö·û´®
+### å­—ç¬¦ä¸²
 
-##### ×Ó´®&Æ´½Ó
+##### å­ä¸²&æ‹¼æŽ¥
 ```java
 String greeting = "hello";
 String s = greeting.subString(0, 3);// s = "hel"
 ```  
-**×¢Òâsubstring·½·¨µÚ¶þ¸ö²ÎÊýµÄÎ»ÖÃ¡£**  
+**æ³¨æ„substringæ–¹æ³•ç¬¬äºŒä¸ªå‚æ•°çš„ä½ç½®ã€‚**  
 
-+ºÅÖ±½ÓÆ´½ÓÁ½¸ö×Ö·û´®¡£  
-»òÕß£ºs1.concat(s2);
++å·ç›´æŽ¥æ‹¼æŽ¥ä¸¤ä¸ªå­—ç¬¦ä¸²ã€‚  
+æˆ–è€…ï¼šs1.concat(s2);
 
-##### ²»¿É±ä×Ö·û´®Óë×Ö·û´®ÏàµÈÎÊÌâ
-×Ö·û´®Ò»µ©´´½¨Ôò²»¿ÉÒÔ±»ÐÞ¸Ä£¬¿ÉÒÔÊÓÎª½«×Ö·û´®´æ´¢ÔÚ¹«¹²µÄ´æ´¢³ØÖÐ£¬Èç¹û¸´ÖÆÒ»¸ö×Ö·û´®±äÁ¿£¬Ô­Ê¼µÄ×Ö·û´®ºÍ¸´ÖÆµÄ×Ö·û´®¹²ÏíÏàÍ¬µÄ×Ö·û¡£  
-²»ÄÜÓÃ==À´ÅÐ¶ÏÁ½¸ö×Ö·û´®ÊÇ·ñÏàÍ¬¡£==Ö»ÄÜ¼ì²âÁ½¸ö×Ö·û´®ÊÇ·ñÔÚÍ¬Ò»¸öÎ»ÖÃ£¬²»ÄÜ¼ì²âÄÚÈÝÏàÍ¬µÄ¶ø´æ·ÅÔÚ²»Í¬Î»ÖÃµÄ×Ö·û´®£¨Ö»ÓÐ×Ö·û´®³£Á¿ÊÇ¹²ÏíµÄ£¬¶ø+»òsubstringµÈ²Ù×÷²úÉúµÄ½á¹û²¢²»ÊÇ¹²ÏíµÄ£©¡£
+##### ä¸å¯å˜å­—ç¬¦ä¸²ä¸Žå­—ç¬¦ä¸²ç›¸ç­‰é—®é¢˜
+å­—ç¬¦ä¸²ä¸€æ—¦åˆ›å»ºåˆ™ä¸å¯ä»¥è¢«ä¿®æ”¹ï¼Œå¯ä»¥è§†ä¸ºå°†å­—ç¬¦ä¸²å­˜å‚¨åœ¨å…¬å…±çš„å­˜å‚¨æ± ä¸­ï¼Œå¦‚æžœå¤åˆ¶ä¸€ä¸ªå­—ç¬¦ä¸²å˜é‡ï¼ŒåŽŸå§‹çš„å­—ç¬¦ä¸²å’Œå¤åˆ¶çš„å­—ç¬¦ä¸²å…±äº«ç›¸åŒçš„å­—ç¬¦ã€‚  
+ä¸èƒ½ç”¨==æ¥åˆ¤æ–­ä¸¤ä¸ªå­—ç¬¦ä¸²æ˜¯å¦ç›¸åŒã€‚==åªèƒ½æ£€æµ‹ä¸¤ä¸ªå­—ç¬¦ä¸²æ˜¯å¦åœ¨åŒä¸€ä¸ªä½ç½®ï¼Œä¸èƒ½æ£€æµ‹å†…å®¹ç›¸åŒçš„è€Œå­˜æ”¾åœ¨ä¸åŒä½ç½®çš„å­—ç¬¦ä¸²ï¼ˆåªæœ‰å­—ç¬¦ä¸²å¸¸é‡æ˜¯å…±äº«çš„ï¼Œè€Œ+æˆ–substringç­‰æ“ä½œäº§ç”Ÿçš„ç»“æžœå¹¶ä¸æ˜¯å…±äº«çš„ï¼‰ã€‚
 
 ```java
 public final char[] value;
@@ -144,70 +144,70 @@ public final char[] value;
         return false;
   }
 ```     
-##### ¿Õ´®Óënull
-1. String s = "";ÊÇÒ»¸ö¿Õ´®£¬¿Õ´®ÊÇÒ»¸öJava¶ÔÏó£¬¿ÉÒÔµ÷ÓÃStringÀàµÄ¸÷·½·¨¡£
-2. String s;ÔÚnullÉÏµ÷ÓÃ·½·¨£¬»á³öÏÖ´íÎó¡£
+##### ç©ºä¸²ä¸Žnull
+1. String s = "";æ˜¯ä¸€ä¸ªç©ºä¸²ï¼Œç©ºä¸²æ˜¯ä¸€ä¸ªJavaå¯¹è±¡ï¼Œå¯ä»¥è°ƒç”¨Stringç±»çš„å„æ–¹æ³•ã€‚
+2. String s;åœ¨nullä¸Šè°ƒç”¨æ–¹æ³•ï¼Œä¼šå‡ºçŽ°é”™è¯¯ã€‚
 
-##### ¹¹½¨×Ö·û´®
+##### æž„å»ºå­—ç¬¦ä¸²
 ```java
 StringBuilder sb = new StringBuilder();
 sb.append(ch);
 sb.append(str);
 ```
-ÓÃÓÚ¹¹½¨×Ö·û´®£¬±ÜÃâ²úÉú¹ý¶àµÄString¶ÔÏó¡£
+ç”¨äºŽæž„å»ºå­—ç¬¦ä¸²ï¼Œé¿å…äº§ç”Ÿè¿‡å¤šçš„Stringå¯¹è±¡ã€‚
 
-### ÊäÈëÊä³ö
-##### ¶ÁÈ¡ÊäÈë
+### è¾“å…¥è¾“å‡º
+##### è¯»å–è¾“å…¥
 ```java 
-//´´½¨Scanner¶ÔÏó¡£Scanner¶¨ÒåÔÚutil°üÖÐ£¬Ê¹ÓÃÊ±ÔÚ³ÌÐò×î¿ªÊ¼¼ÓÉÏÒ»ÐÐimport java.util.*;
+//åˆ›å»ºScannerå¯¹è±¡ã€‚Scannerå®šä¹‰åœ¨utilåŒ…ä¸­ï¼Œä½¿ç”¨æ—¶åœ¨ç¨‹åºæœ€å¼€å§‹åŠ ä¸Šä¸€è¡Œimport java.util.*;
 Scanner in = new Scanner(System.in);
-//µ÷ÓÃnextInt·½·¨
+//è°ƒç”¨nextIntæ–¹æ³•
 int age = in.nextInt();
 ```
-ÒòÎªÊäÈëÊÇ¿É¼ûµÄ£¬Java SE 6ÒýÈëÁËConsoleÀàÊµÏÖ¿ØÖÆÌ¨¶ÁÈ¡ÃÜÂë¡£
+å› ä¸ºè¾“å…¥æ˜¯å¯è§çš„ï¼ŒJava SE 6å¼•å…¥äº†Consoleç±»å®žçŽ°æŽ§åˆ¶å°è¯»å–å¯†ç ã€‚
 ```java
 Console cons = System.console();  
 String username = cons.readLine("User name:");
 char[] passwd = cons.readPassWord("Password:");
 ```
-Îª°²È«Æð¼û£¬ÃÜÂë´æ·ÅÔÚÊý×é£¬ÔÚ¶ÔÃÜÂë½øÐÐ´¦Àíºó£¬Ó¦¸ÃÁ¢ÂíÓÃÒ»¸öÌî³äÖµ¸²¸ÇÊý×éÔªËØ¡£
+ä¸ºå®‰å…¨èµ·è§ï¼Œå¯†ç å­˜æ”¾åœ¨æ•°ç»„ï¼Œåœ¨å¯¹å¯†ç è¿›è¡Œå¤„ç†åŽï¼Œåº”è¯¥ç«‹é©¬ç”¨ä¸€ä¸ªå¡«å……å€¼è¦†ç›–æ•°ç»„å…ƒç´ ã€‚
 
 
-##### ¸ñÊ½»¯Êä³ö
+##### æ ¼å¼åŒ–è¾“å‡º
 
-¿ÉÒÔÊ¹ÓÃString.format·½·¨´´½¨Ò»¸ö¸ñÊ½»¯µÄ×Ö·û´®¶ø²»´òÓ¡Êä³ö¡£  
+å¯ä»¥ä½¿ç”¨String.formatæ–¹æ³•åˆ›å»ºä¸€ä¸ªæ ¼å¼åŒ–çš„å­—ç¬¦ä¸²è€Œä¸æ‰“å°è¾“å‡ºã€‚  
 e.g. String message = String.format("Hello, %s, Next year, you`ll be %d.", name, age);  
-¸ñÊ½ËµÃ÷·ûÓï·¨£º  
-%(¸ñÊ½ËµÃ÷·û) -> ²ÎÊýË÷Òý + "$" -> ±êÖ¾(+#,µÈ) -> ¿í¶È -> 1. -> . -> ¾«¶È -> ×ª»»×Ö·û
-2. -> t -> ×ª»»×Ö·û   
-##### ÎÄ¼þµÄÊäÈëÓëÊä³ö
-1. ¶ÁÎÄ¼þ    
+æ ¼å¼è¯´æ˜Žç¬¦è¯­æ³•ï¼š  
+%(æ ¼å¼è¯´æ˜Žç¬¦) -> å‚æ•°ç´¢å¼• + "$" -> æ ‡å¿—(+#,ç­‰) -> å®½åº¦ -> 1. -> . -> ç²¾åº¦ -> è½¬æ¢å­—ç¬¦
+2. -> t -> è½¬æ¢å­—ç¬¦   
+##### æ–‡ä»¶çš„è¾“å…¥ä¸Žè¾“å‡º
+1. è¯»æ–‡ä»¶    
 Scanner in = new Scanner(Paths.get("a.txt"));
-2. Ð´ÎÄ¼þ  
+2. å†™æ–‡ä»¶  
 PrintWriter out = new PrintWroter("b.txt");  
 
 
-### ¿ØÖÆÁ÷³Ì
+### æŽ§åˆ¶æµç¨‹
 
-##### ¿é×÷ÓÃÓò
-1. ¿éÈ·¶¨ÁË±äÁ¿µÄ×÷ÓÃÓò
-2. ²»ÄÜÔÚÇ¶Ì×µÄÁ½¸ö¿éÖÐÉùÃ÷Í¬ÃûµÄ±äÁ¿
+##### å—ä½œç”¨åŸŸ
+1. å—ç¡®å®šäº†å˜é‡çš„ä½œç”¨åŸŸ
+2. ä¸èƒ½åœ¨åµŒå¥—çš„ä¸¤ä¸ªå—ä¸­å£°æ˜ŽåŒåçš„å˜é‡
 
-##### Ìõ¼þÓï¾ä
-+ else×Ó¾äÓë×îÁÙ½üµÄif¹¹³ÉÒ»×é
+##### æ¡ä»¶è¯­å¥
++ elseå­å¥ä¸Žæœ€ä¸´è¿‘çš„ifæž„æˆä¸€ç»„
 
-##### Ñ­»·
-+ Èç¹û¿ªÊ¼Ñ­»·Ìõ¼þµÄÖµÎªfalse£¬ ÔòwhileÑ­»·ÌåÒ»´ÎÒ²²»Ö´ÐÐ
-+ do...whileÑ­»·ÏÈÖ´ÐÐÓï¾ä£¬ÔÙÅÐ¶ÏÑ­»·Ìõ¼þ¡£
-+ ¼ì²âÁ½¸ö¸¡µãÊýÓ¦¸Ã¸ñÍâÐ¡ÐÄ£¬for (double x = 0; x != 10; x += 0.1)¿ÉÄÜÓÀÔ¶²»»á½áÊø¡£  
-¿ÉÒÔ¸ÄÎª£ºfor (double x = 0; (x - 10) < 1e-64; x += 0.1)
+##### å¾ªçŽ¯
++ å¦‚æžœå¼€å§‹å¾ªçŽ¯æ¡ä»¶çš„å€¼ä¸ºfalseï¼Œ åˆ™whileå¾ªçŽ¯ä½“ä¸€æ¬¡ä¹Ÿä¸æ‰§è¡Œ
++ do...whileå¾ªçŽ¯å…ˆæ‰§è¡Œè¯­å¥ï¼Œå†åˆ¤æ–­å¾ªçŽ¯æ¡ä»¶ã€‚
++ æ£€æµ‹ä¸¤ä¸ªæµ®ç‚¹æ•°åº”è¯¥æ ¼å¤–å°å¿ƒï¼Œfor (double x = 0; x != 10; x += 0.1)å¯èƒ½æ°¸è¿œä¸ä¼šç»“æŸã€‚  
+å¯ä»¥æ”¹ä¸ºï¼šfor (double x = 0; (x - 10) < 1e-64; x += 0.1)
 
-##### switchÓï¾ä
-+ switch´ÓÑ¡ÏîÖµÏàÆ¥ÅäµÄcase±êÇ©´¦¿ªÊ¼Ö´ÐÐÖ±µ½Óöµ½breakÓï¾ä£¬»òÕßÖ´ÐÐµ½switchÓï¾ä½áÊø¡£
-+ Èç¹ûÃ»ÓÐÆ¥ÅäµÄcase±êÇ©¶øÓÖdefault×Ó¾ä£¬¾ÍÖ´ÐÐÕâ¸ö×Ó¾ä¡£
-+ caseµÄ±êÇ©¿ÉÒÔÊÇ£º
-	1. char¡¢byte¡¢short¡¢intµÈ³£Á¿±í´ïÊ½
-	2. Ã¶¾Ù³£Á¿£¬Ê¹ÓÃÃ¶¾Ù³£Á¿Ê±£¬²»ÐèÒªÖ¸Ã÷Ã¶¾ÙÃû¡£
+##### switchè¯­å¥
++ switchä»Žé€‰é¡¹å€¼ç›¸åŒ¹é…çš„caseæ ‡ç­¾å¤„å¼€å§‹æ‰§è¡Œç›´åˆ°é‡åˆ°breakè¯­å¥ï¼Œæˆ–è€…æ‰§è¡Œåˆ°switchè¯­å¥ç»“æŸã€‚
++ å¦‚æžœæ²¡æœ‰åŒ¹é…çš„caseæ ‡ç­¾è€Œåˆdefaultå­å¥ï¼Œå°±æ‰§è¡Œè¿™ä¸ªå­å¥ã€‚
++ caseçš„æ ‡ç­¾å¯ä»¥æ˜¯ï¼š
+	1. charã€byteã€shortã€intç­‰å¸¸é‡è¡¨è¾¾å¼
+	2. æžšä¸¾å¸¸é‡ï¼Œä½¿ç”¨æžšä¸¾å¸¸é‡æ—¶ï¼Œä¸éœ€è¦æŒ‡æ˜Žæžšä¸¾åã€‚
 	```java
 	Size sz = ...;
 	switch(sz) {
@@ -215,10 +215,10 @@ PrintWriter out = new PrintWroter("b.txt");
 		...
 	}
 	```  
-	3. ´ÓJava SE 7¿ªÊ¼£¬case±êÇ©»¹¿ÉÒÔÊÇ×Ö·û´®×ÖÃæÁ¿¡£ case ¡°yes¡±   
+	3. ä»ŽJava SE 7å¼€å§‹ï¼Œcaseæ ‡ç­¾è¿˜å¯ä»¥æ˜¯å­—ç¬¦ä¸²å­—é¢é‡ã€‚ case â€œyesâ€   
 
-##### ÖÐ¶Ï¿ØÖÆÁ÷³ÌÓï¾ä
-+ ÈçºÎÌø³öÍâÈ¦µÄÑ­»·£¿
+##### ä¸­æ–­æŽ§åˆ¶æµç¨‹è¯­å¥
++ å¦‚ä½•è·³å‡ºå¤–åœˆçš„å¾ªçŽ¯ï¼Ÿ
 ```java
 int n;
 read_data:
@@ -226,58 +226,58 @@ while (...) {
 	for (...) {
 		n = ...;
 		if (n < 0)
-			break read_data; //Ìø³öÍâÈ¦µÄwhileÑ­»·
+			break read_data; //è·³å‡ºå¤–åœˆçš„whileå¾ªçŽ¯
 	}
 }
 ```
-+ continueÓï¾äÔ½¹ýÁËµ±Ç°Ñ­»·ÌåµÄÊ£ÓàÓï¾ä£¬Á¢¼´µ÷µ½Ñ­»·Ê×²¿¡£
++ continueè¯­å¥è¶Šè¿‡äº†å½“å‰å¾ªçŽ¯ä½“çš„å‰©ä½™è¯­å¥ï¼Œç«‹å³è°ƒåˆ°å¾ªçŽ¯é¦–éƒ¨ã€‚
 
-### ´óÊýÖµ
+### å¤§æ•°å€¼
 
-BigIntegerºÍBigDecimal£º  
+BigIntegerå’ŒBigDecimalï¼š  
 
-+ ÕâÁ½¸öÀà¿ÉÒÔ´¦Àí°üº¬ÈÎÒâ³¤¶ÈÊý×ÖÐòÁÐµÄÊýÖµ¡£
-+ BigIntegerÀàÊµÏÖÁËÈÎÒâ¾«¶ÈµÄÕûÊýÔËËã¡£
-+ BigDecimalÀàÊµÏÖÁËÈÎÒâ¾«¶ÈµÄ¸¡µãÊýÔËËã¡£
-+ BigInteger a = BigInteger.valueOf(100);valueOf·½·¨ÊµÏÖÁËÆÕÍ¨Êý×Ö×ª»»Îª´óÊýÖµ¡£
-+ add¡¢ subtract¡¢ multiply¡¢ divide¡¢ modµÈ·½·¨ÊµÏÖÁË¼Ó¼õ³Ë³ýÈ¡ÓàµÈÔËËã¡£
++ è¿™ä¸¤ä¸ªç±»å¯ä»¥å¤„ç†åŒ…å«ä»»æ„é•¿åº¦æ•°å­—åºåˆ—çš„æ•°å€¼ã€‚
++ BigIntegerç±»å®žçŽ°äº†ä»»æ„ç²¾åº¦çš„æ•´æ•°è¿ç®—ã€‚
++ BigDecimalç±»å®žçŽ°äº†ä»»æ„ç²¾åº¦çš„æµ®ç‚¹æ•°è¿ç®—ã€‚
++ BigInteger a = BigInteger.valueOf(100);valueOfæ–¹æ³•å®žçŽ°äº†æ™®é€šæ•°å­—è½¬æ¢ä¸ºå¤§æ•°å€¼ã€‚
++ addã€ subtractã€ multiplyã€ divideã€ modç­‰æ–¹æ³•å®žçŽ°äº†åŠ å‡ä¹˜é™¤å–ä½™ç­‰è¿ç®—ã€‚
 
-### Êý×é
+### æ•°ç»„
 
-+ Êý×éÊÇÓÃÀ´´æ´¢**Í¬Ò»ÀàÐÍÖµ**µÄ¼¯ºÏ¡£
-+ Ò»µ©´´½¨ÁËÊý×é£¬¾Í²»ÄÜ¸Ä±äÆä´óÐ¡
++ æ•°ç»„æ˜¯ç”¨æ¥å­˜å‚¨**åŒä¸€ç±»åž‹å€¼**çš„é›†åˆã€‚
++ ä¸€æ—¦åˆ›å»ºäº†æ•°ç»„ï¼Œå°±ä¸èƒ½æ”¹å˜å…¶å¤§å°
 
-##### for eachÑ­»·
-Ñ­»·aÖÐµÄÃ¿Ò»¸öÔªËØ£º
+##### for eachå¾ªçŽ¯
+å¾ªçŽ¯aä¸­çš„æ¯ä¸€ä¸ªå…ƒç´ ï¼š
 ```java
 for (int elements : a) {
 	System.out.println(elements);
 }
 ```
 
-##### Êý×é³õÊ¼»¯&ÄäÃûÊý×é
+##### æ•°ç»„åˆå§‹åŒ–&åŒ¿åæ•°ç»„
 + int arr = {2, 3, 5, 9, 15};
-+ ¿ÉÒÔ³õÊ¼»¯Ò»¸öÄäÃûÊý×é new int[] {2, 3, 5, 9, 15};
++ å¯ä»¥åˆå§‹åŒ–ä¸€ä¸ªåŒ¿åæ•°ç»„ new int[] {2, 3, 5, 9, 15};
 
-##### Êý×é¿½±´
+##### æ•°ç»„æ‹·è´
 arr = Arrays.copyOf(arr, 2 * arr.length);  
-Õâ¸ö·½·¨Í¨³£ÓÃÀ´Ôö¼ÓÊý×éµÄ´óÐ¡¡£
+è¿™ä¸ªæ–¹æ³•é€šå¸¸ç”¨æ¥å¢žåŠ æ•°ç»„çš„å¤§å°ã€‚
 
-##### ÃüÁîÐÐ²ÎÊý
-public static void main(String[] args) mainÖÐµÄ²ÎÊý±íÃ÷main·½·¨½ÓÊÕÒ»¸ö×Ö·û´®Êý×é£¬Ò²¾ÍÊÇÃüÁîÐÐ²ÎÊý¡£
+##### å‘½ä»¤è¡Œå‚æ•°
+public static void main(String[] args) mainä¸­çš„å‚æ•°è¡¨æ˜Žmainæ–¹æ³•æŽ¥æ”¶ä¸€ä¸ªå­—ç¬¦ä¸²æ•°ç»„ï¼Œä¹Ÿå°±æ˜¯å‘½ä»¤è¡Œå‚æ•°ã€‚
 
-##### Êý×éÅÅÐòµÈÆäËû·½·¨
-Arrays.sort -- ÅÅÐò
-Arrays.copyOfRange(type[] a, int start, int end)²»°üÀ¨end
+##### æ•°ç»„æŽ’åºç­‰å…¶ä»–æ–¹æ³•
+Arrays.sort -- æŽ’åº
+Arrays.copyOfRange(type[] a, int start, int end)ä¸åŒ…æ‹¬end
 Arrays.binarySearch(type[] a, type v)
-Arrays.fill(type[] a, type v) ½«Êý×éËùÓÐÊý¾ÝÔªËØÉèÖÃÎªv
+Arrays.fill(type[] a, type v) å°†æ•°ç»„æ‰€æœ‰æ•°æ®å…ƒç´ è®¾ç½®ä¸ºv
 
-##### ¶àÎ¬Êý×é
-+ double[][] balance;ÉùÃ÷Ò»¸ö¶àÎ¬Êý×é
+##### å¤šç»´æ•°ç»„
++ double[][] balance;å£°æ˜Žä¸€ä¸ªå¤šç»´æ•°ç»„
 + int[][] arr = {{1, 2, 3} {4, 5, 6} {7, 8, 9}};
-+ Ê¹ÓÃArrays.deeepToString(type[][] a)´òÓ¡Ò»¸ö¶þÎ¬Êý×é
-+ JavaÊµ¼ÊÉÏÃ»ÓÐ¶àÎ¬Êý×é£¬Ö»ÓÐÒ»Î¬Êý×é£¬¶àÎ¬Êý×é±»½âÊÍÎª¡°Êý×éµÄÊý×é¡±¡£
-+ Òò´Ë£¬¿É¶¨Òå²»¹æÔòÊý×é£º  
++ ä½¿ç”¨Arrays.deeepToString(type[][] a)æ‰“å°ä¸€ä¸ªäºŒç»´æ•°ç»„
++ Javaå®žé™…ä¸Šæ²¡æœ‰å¤šç»´æ•°ç»„ï¼Œåªæœ‰ä¸€ç»´æ•°ç»„ï¼Œå¤šç»´æ•°ç»„è¢«è§£é‡Šä¸ºâ€œæ•°ç»„çš„æ•°ç»„â€ã€‚
++ å› æ­¤ï¼Œå¯å®šä¹‰ä¸è§„åˆ™æ•°ç»„ï¼š  
 ```java
 int[][] odds = new int[SIZE][];
 for (int i = 0; i < SIZE; i++)
