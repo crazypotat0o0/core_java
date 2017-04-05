@@ -1,14 +1,13 @@
 package chapter05;
 
 /**
- * 演示继承
- * @author 刘旭锋
+ * 婕旂ず缁ф壙
  *
  */
 public class ManegerTest {
 
 	public static void main(String[] args) {
-		// 创建经理对象
+		// 鍒涘缓缁忕悊瀵硅薄
 		Maneger boss = new Maneger("zhangsan", 12000, 1992, 7, 17);
 		boss.setBonus(5000);
 		
