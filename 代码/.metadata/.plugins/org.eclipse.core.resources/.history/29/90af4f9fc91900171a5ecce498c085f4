@@ -1,0 +1,18 @@
+package test;
+
+public class OverloadTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		f.add(5);
+	}
+	public static void f(double num) {
+		System.out.println(num);
+	}
+	public static void f(float num) {
+		System.out.println(num);
+	}
+	public static void f(int num) {
+		System.out.println(num);
+	}
+}

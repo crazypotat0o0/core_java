@@ -1,0 +1,14 @@
+package chapter05;
+
+import java.util.Date;
+
+public class Employee {
+	private String name;
+	private double salary;
+	private Date hireDay;
+	
+	public Employee(String name, double salary, int year, int month, int day_of_month) {
+		
+	}
+	
+}

@@ -1,0 +1,11 @@
+package chapter05;
+
+public class Maneger extends Employee {
+
+	public Maneger(String name, double salary, int year, int month, int day_of_month) {
+		super(name, salary, year, month, day_of_month);
+	}
+	
+	
+	
+}

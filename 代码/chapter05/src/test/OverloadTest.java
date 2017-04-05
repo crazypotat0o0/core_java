@@ -1,0 +1,21 @@
+package test;
+
+public class OverloadTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+//		System.out.println(Long.MAX_VALUE);
+		func(5.5);
+	}
+	public static void func(long num) {
+		System.out.println(num);
+	}
+	public static int func(double num) {
+		System.out.println(num);
+		System.out.println("float is run....");
+		return (int)num;
+	}
+//	public static void func(int num) {
+//		System.out.println(num);
+//	}
+}

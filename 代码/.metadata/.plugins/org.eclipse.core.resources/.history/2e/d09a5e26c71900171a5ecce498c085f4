@@ -1,0 +1,18 @@
+package chapter05;
+
+import java.util.Date;
+import java.util.GregorianCalendar;
+
+public class Employee {
+	private String name;
+	private double salary;
+	private Date hireDay;
+	
+	public Employee(String name, double salary, int year, int month, int day_of_month) {
+		this.name = name;
+		this.salary = salary;
+		GregorianCalendar calendar = new GregorianCalendar(year, month - 1, day_of_month);
+		hireDay = calendar.getTime();
+	}
+	
+}

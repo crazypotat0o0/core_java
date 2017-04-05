@@ -1,0 +1,21 @@
+package chapter05;
+
+public class Maneger extends Employee {
+
+	private double bonus;
+	
+	public Maneger(String name, double salary, int year, int month, int day_of_month) {
+		super(name, salary, year, month, day_of_month);
+		bonus = 0;
+	}
+	
+	@Override
+	public double getSalary() {
+		return super.getSalary() + bonus;
+	}
+	
+	public void setBonus(double bonus) {
+		this.bonus = bonus;
+	}
+	
+}

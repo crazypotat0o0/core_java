@@ -1,0 +1,15 @@
+package chapter05;
+
+/**
+ * 演示继承
+ * @author 刘旭锋
+ *
+ */
+public class ManegerTest {
+
+	public static void main(String[] args) {
+		// 创建经理对象
+
+	}
+
+}

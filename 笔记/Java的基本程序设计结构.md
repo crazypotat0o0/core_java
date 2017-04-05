@@ -1,4 +1,4 @@
-﻿### 一个简单的Java应用程序
+### 一个简单的Java应用程序
 ```java
 public class FirstSample {
 	public static void main(String[] args) {
